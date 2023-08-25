@@ -1,0 +1,2 @@
+# Film_TV_and_Screen_Resource_Library-Stratagem
+ Used Python tools to mine information from various film and television resource websites and build a user-friendly database on MySql. With that database made a dashboard on Tableau, and share that on Tableau Public. With that, the company can interact to get information about various regional markets which will help the company make an educated investment.
