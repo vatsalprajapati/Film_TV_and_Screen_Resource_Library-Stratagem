@@ -1,0 +1,70 @@
+from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
+from sqlalchemy.ext.declarative import declarative_base
+import os
+import pandas as pd
+from datetime import date
+
+base_dir = os.path.dirname(os.path.realpath(__file__))
+
+connection_string = "sqlite:///"+os.path.join(base_dir,'MRP_DB.db')
+
+Base = declarative_base()
+
+class User(Base):
+    __tablename__ = "STG_PRODUCTION_UNITS"
+
+    id = Column('Id', Integer, primary_key=True, autoincrement=True)
+    Name = Column('Name', String)
+    Min_Project_Size = Column('Min_Project_Size', String)
+    Location = Column('Location', String)
+    Wage= Column('Wage', String)
+    Website= Column('Website',String)
+    Team_size = Column('Team_size', String)
+    Description = Column('Description', String)
+    Load_date = Column('Load_date', String)
+    Backend_Table = Column('Backend_Table', String)
+
+engine  = create_engine(connection_string, echo =True)
+Base.metadata.create_all(bind=engine)
+
+# Clutch- Second site scrape
+df = pd.read_csv('E:\Georgian College\MRP\sqlalchemy\inputdata\Second Site Scrape.csv', encoding='latin-1')
+
+df.rename(columns={'MinProjectSize': 'Min_Project_Size', 'Team-Size': 'Team_size' , 'Website': 'Website' , "location":"Location" },inplace=True)
+##df.drop(columns = ['Website'],  inplace=True)
+df['Name'] = df['Name'].replace("Future�s Past Events", "Future's Past Events")
+df['Name'] = df['Name'].replace("Productions N�com", "Productions Nucom")
+df['Name'] = df['Name'].replace("Brand Stories�", "Brand Stories")
+
+df['Location'] = df['Location'].replace("Montr�al  Canada", "Montreal Canada")
+df['Location'] = df['Location'].replace("Vall�e-Jonction  Canada", "Vallee-Jonction  Canada")
+df['Location'] = df['Location'].replace("Qu�bec  Canada", "Quebec  Canada")
+df['Location'] = df['Location'].replace("C�te Saint-Luc  Canada", "Cote Saint-Luc  Canada")
+df['Location'] = df['Location'].replace("Rivi�re-du-Loup  Canada", "Riviere-du-Loup  Canada")
+df['Location'] = df['Location'].replace("Sept-�les  Canada", "Sept-Iles  Canada")
+
+df['Description'] = ' '
+df['Load_date'] = date.today().strftime("%m/%d/%Y")
+df['Backend_Table'] = 'Clutch'
+
+
+# Cion- Third site scrape
+df_cion = pd.read_csv('E:\Georgian College\MRP\sqlalchemy\inputdata\Third Site Scrape.csv' , encoding='latin-1')
+
+df_cion.rename(columns={'Production House': 'Name'},inplace=True)
+df_cion.drop(columns = ['Title', 'Type'],  inplace=True)
+
+df_cion.rename(columns={'Description ': 'Description'},inplace=True)
+df_cion['Min_Project_Size'] = ''
+df_cion['Location'] = ''
+df_cion['Wage'] = ''
+df_cion['Team_size'] = ''
+df_cion['Website'] = ''
+df_cion['Load_date'] = date.today().strftime("%m/%d/%Y")
+df_cion['Backend_Table'] = 'Cion'
+df_cion1 = df_cion[df_cion.Name.notnull()]
+
+
+df.to_sql(con=engine, name=User.__tablename__, if_exists='append',index=False)
+df_cion1.to_sql(con=engine, name=User.__tablename__, if_exists='append',index=False)
+

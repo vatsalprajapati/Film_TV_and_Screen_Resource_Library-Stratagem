@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Film & Tv Resource Library</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-4">
+					<a href="https://ibb.co/VQPWDnV"><img src="https://i.ibb.co/rc1GM8k/stratagem-01.png" alt="stratagem-01" border="0" style="width: 500px ; height: 200px;"></a>
+					<!--<h2 class="heading-section">Stratagem</h2>-->
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-4">
+					<h2 class="heading-section">Film & TV Resource Library</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="h5 mb-4 text-center">Workforce</h3>
+					<button ><a href="{{ url_for('page',page_num=1 ) }}"> <b> wf </b> </a></button>
+    &nbsp;  &nbsp;  &nbsp;
+					<div class="table-wrap">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="h5 mb-4 text-center">PDFS</h3>
+					<button ><a href="{{ url_for('page2',page_num=1 ) }}"> <b> pdf </b> </a></button>
+					<div class="table-wrap">
+					</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12">
+					<h3 class="h5 mb-4 text-center">Unions</h3>
+					<button ><a href="{{ url_for('page3',page_num=1 ) }}"> <b> Unions </b> </a></button>
+					<div class="table-wrap">
+					</div>
+				</div>
+					<div class="row">
+				<div class="col-md-12">
+					<h3 class="h5 mb-4 text-center">Workforce2</h3>
+					<button ><a href="{{ url_for('page4',page_num=1 ) }}"> <b> Workfocr2 </b> </a></button>
+					<div class="table-wrap">
+					</div>
+				</div>
+						<div class="row">
+				<div class="col-md-12">
+					<h3 class="h5 mb-4 text-center">Clutch</h3>
+					<button ><a href="{{ url_for('page5',page_num=1 ) }}"> <b> Clutch </b> </a></button>
+					<div class="table-wrap">
+					</div>
+				</div>
+								<div class="row">
+				<div class="col-md-12">
+					<h3 class="h5 mb-4 text-center">Infra</h3>
+					<button ><a href="{{ url_for('page6',page_num=1 ) }}"> <b> Infra </b> </a></button>
+					<div class="table-wrap">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	</body>
+</html>
+

@@ -1,0 +1,779 @@
+AreaCode,PrimaryCity
+(519)200,London
+(519)201,Preston
+(519)202,Dorchester
+(519)203,Lambeth
+(519)204,London
+(519)205,Strathroy
+(519)206,Saint Jacobs
+(519)207,Saint Thomas
+(519)208,Kitchener
+(519)209,Brantford
+(519)210,Elmira
+(519)212,Hespeler
+(519)213,Breslau
+(519)214,Baden
+(519)215,Orangeville
+(519)216,Orangeville
+(519)217,Orangeville
+(519)218,Saint Clemnts
+(519)219,Preston
+(519)220,Hespeler
+(519)221,Hespeler
+(519)222,Hespeler
+(519)223,Hespeler
+(519)224,Hespeler
+(519)225,Granton
+(519)227,Lucan
+(519)228,Centralia
+(519)229,Kirkton
+(519)230,Hespeler
+(519)231,Galt
+(519)232,Nairn
+(519)233,Clinton
+(519)234,Crediton
+(519)235,Exeter
+(519)236,ZurichHay
+(519)237,DashwoodHay
+(519)238,Grand Bend
+(519)239,Hespeler
+(519)240,Hespeler
+(519)241,Hespeler
+(519)242,Hespeler
+(519)243,Port Franks
+(519)244,Hespeler
+(519)245,Strathroy
+(519)246,Strathroy
+(519)247,Kerwood
+(519)248,Hespeler
+(519)249,Hespeler
+(519)250,Windsor
+(519)251,Windsor
+(519)252,Windsor
+(519)253,Windsor
+(519)254,Windsor
+(519)255,Windsor
+(519)256,Windsor
+(519)257,Windsor
+(519)258,Windsor
+(519)259,Windsor
+(519)260,Hespeler
+(519)261,Mount Forest
+(519)262,Hensall
+(519)263,Hensall
+(519)264,Mount Brydges
+(519)265,Guelph
+(519)266,London
+(519)267,Galt
+(519)268,Dorchester
+(519)269,Harrietsville
+(519)270,Owen Sound
+(519)271,Stratford
+(519)272,Stratford
+(519)273,Stratford
+(519)274,Stratford
+(519)275,Stratford
+(519)276,Stratford
+(519)277,Hespeler
+(519)278,Orangeville
+(519)279,Kitchener
+(519)280,London
+(519)281,London
+(519)282,London
+(519)283,Kintore
+(519)284,Saint Marys
+(519)285,Thamesford
+(519)286,London
+(519)287,Glencoe
+(519)288,Orangeville
+(519)289,Melbourne
+(519)290,Woodstock
+(519)291,Listowel
+(519)292,Listowel
+(519)293,Ailsa raig
+(519)294,Parkhill
+(519)295,Thamesford
+(519)296,Thedford
+(519)297,Exeter
+(519)298,Ilderton
+(519)299,Strathroy
+(519)300,Windsor
+(519)301,Stratford
+(519)302,Paris
+(519)303,Ingersoll
+(519)304,Brantford
+(519)305,Stratford
+(519)306,Shelburne
+(519)307,Orangeville
+(519)308,Hillsburgh
+(519)309,Brantford
+(519)310,
+(519)312,Sarnia
+(519)313,Mount Forest
+(519)314,Mount Forest
+(519)315,Erin
+(519)316,Caledon
+(519)317,London
+(519)318,London
+(519)319,London
+(519)320,Woodstock
+(519)321,Mount Forest
+(519)322,Leamington
+(519)323,Mount Forest
+(519)324,Leamington
+(519)325,Leamington
+(519)326,Leamington
+(519)327,Clifford
+(519)328,Sarnia
+(519)329,Leamington
+(519)330,Sarnia
+(519)331,Sarnia
+(519)332,Sarnia
+(519)333,Sarnia
+(519)334,Holstein
+(519)335,Gorrie
+(519)336,Sarnia
+(519)337,Sarnia
+(519)338,Harriston
+(519)339,Sarnia
+(519)340,Kitchener
+(519)341,Guelph
+(519)342,Kitchener
+(519)343,Palmerston
+(519)344,Sarnia
+(519)345,Dublin
+(519)346,Sarnia
+(519)347,Monkton
+(519)348,Mitchell
+(519)349,Uniondale
+(519)350,Chatham
+(519)351,Chatham
+(519)352,Chatham
+(519)353,Paisley
+(519)354,Chatham
+(519)355,Chatham
+(519)356,Atwood
+(519)357,Wingham
+(519)358,Chatham
+(519)359,Chatham
+(519)360,Chatham
+(519)361,Tiverton
+(519)362,Guelph
+(519)363,Chesley
+(519)364,Hanover
+(519)365,Chatham
+(519)366,Cargill
+(519)367,Mildmay
+(519)368,Tiverton
+(519)369,Durham
+(519)370,Owen Sound
+(519)371,Owen Sound
+(519)372,Owen Sound
+(519)373,Owen Sound
+(519)374,Owen Sound
+(519)375,Owen Sound
+(519)376,Owen Sound
+(519)377,Owen Sound
+(519)378,Owen Sound
+(519)379,Owen Sound
+(519)380,Chatham
+(519)381,Sarnia
+(519)383,Sarnia
+(519)384,Sarnia
+(519)385,Port Elgin
+(519)386,Port Elgin
+(519)387,Owen Sound
+(519)388,Chatham
+(519)389,Port Elgin
+(519)390,New Hamburg
+(519)391,New Dundee
+(519)392,Teeswater
+(519)393,Sebringville
+(519)394,Ayr
+(519)395,Ripley
+(519)396,Kincardine
+(519)397,Chatham
+(519)398,Leamington
+(519)399,Lucan
+(519)400,Guelph
+(519)401,Chatham
+(519)402,Sarnia
+(519)403,Tillsonburg
+(519)404,Kitchener
+(519)405,Innerkip
+(519)406,Wellesley
+(519)407,Saint Clemnts
+(519)408,Plattsville
+(519)409,Tillsonburg
+(519)410,Simcoe
+(519)412,Tavistock
+(519)413,New Dundee
+(519)414,Saint George
+(519)415,Orangeville
+(519)416,Owen Sound
+(519)417,Palmerston
+(519)418,Listowel
+(519)419,Windsor
+(519)420,Simcoe
+(519)421,Woodstock
+(519)422,Sauble Beach
+(519)423,Beachville
+(519)424,Burgessville
+(519)425,Ingersoll
+(519)426,Simcoe
+(519)427,Simcoe
+(519)428,Simcoe
+(519)429,Simcoe
+(519)430,London
+(519)431,Courtright
+(519)432,London
+(519)433,London
+(519)434,London
+(519)435,London
+(519)436,Chatham
+(519)437,Chatham
+(519)438,London
+(519)439,London
+(519)440,Goderich
+(519)441,Goderich
+(519)442,Paris
+(519)443,Waterford
+(519)444,Listowel
+(519)445,Ohsweken
+(519)446,Scotland
+(519)447,Owen Sound
+(519)448,Saint George
+(519)449,Burford
+(519)450,Wingham
+(519)451,London
+(519)452,London
+(519)453,London
+(519)454,Bright
+(519)455,London
+(519)456,Woodstock
+(519)457,London
+(519)458,Princeton
+(519)459,Parkhill
+(519)461,Thorndale
+(519)462,Hickson
+(519)463,Drumbo
+(519)464,Sarnia
+(519)465,Kitchener
+(519)466,Sarnia
+(519)467,Eastwood
+(519)468,Norwich
+(519)469,Innerkip
+(519)470,Owen Sound
+(519)471,London
+(519)472,London
+(519)473,London
+(519)474,London
+(519)475,Embro
+(519)476,London
+(519)477,Owen Sound
+(519)478,Tecumseh
+(519)479,Sarnia
+(519)480,Chatham
+(519)481,Corunna
+(519)482,Clinton
+(519)483,Southampton
+(519)484,Mount Pleasant
+(519)485,Ingersoll
+(519)486,Lambeth
+(519)488,London
+(519)489,Kitchener
+(519)490,Sarnia
+(519)491,Sarnia
+(519)492,Listowel
+(519)493,Durham
+(519)494,London
+(519)495,London
+(519)496,Kitchener
+(519)497,Kitchener
+(519)498,Kitchener
+(519)499,Dorchester
+(519)500,Kitchener
+(519)501,Kitchener
+(519)502,Kitchener
+(519)503,Kitchener
+(519)504,Kitchener
+(519)505,Kitchener
+(519)506,Hanover
+(519)507,Walkerton
+(519)508,Stratford
+(519)509,Mount Forest
+(519)510,Harriston
+(519)512,Brantford
+(519)513,Kitchener
+(519)514,Kitchener
+(519)515,Guelph
+(519)516,Brantford
+(519)517,Ailsa Craig
+(519)518,London
+(519)520,London
+(519)521,London
+(519)522,Selkirk
+(519)523,Blyth
+(519)524,Goderich
+(519)525,Goderich
+(519)526,Auburn
+(519)527,Seaforth
+(519)528,Lucknow
+(519)529,Dungannon
+(519)530,Wingham
+(519)531,Wingham
+(519)532,Woodstock
+(519)533,Woodstock
+(519)534,Wiarton
+(519)535,Woodstock
+(519)536,Woodstock
+(519)537,Woodstock
+(519)538,Meaford
+(519)539,Woodstock
+(519)540,Walkerton
+(519)541,Sarnia
+(519)542,Sarnia
+(519)543,Galt
+(519)544,Tillsonburg
+(519)545,New Hamburg
+(519)546,Guelph
+(519)547,Ayr
+(519)549,Thorndale
+(519)550,Tillsonburg
+(519)551,Windsor
+(519)552,London
+(519)553,Guelph
+(519)554,Kitchener
+(519)556,Baden
+(519)557,Thamesford
+(519)558,Belmont
+(519)559,Mount Brydges
+(519)560,Windsor
+(519)561,Windsor
+(519)562,Windsor
+(519)563,Windsor
+(519)564,Windsor
+(519)565,Bayfield
+(519)566,Windsor
+(519)567,Windsor
+(519)568,Kitchener
+(519)569,Kitchener
+(519)570,Kitchener
+(519)571,Kitchener
+(519)572,Kitchener
+(519)573,Kitchener
+(519)574,Kitchener
+(519)575,Kitchener
+(519)576,Kitchener
+(519)577,Kitchener
+(519)578,Kitchener
+(519)579,Kitchener
+(519)580,Kitchener
+(519)581,Kitchener
+(519)582,Delhi
+(519)583,Port Dover
+(519)584,Kitchener
+(519)585,Kitchener
+(519)586,Port Rowan
+(519)587,Jarvis
+(519)588,Kitchener
+(519)589,Kitchener
+(519)590,Kitchener
+(519)591,Kitchener
+(519)592,Stokes Bay
+(519)593,Kitchener
+(519)594,Kitchener
+(519)595,Milverton
+(519)596,Tobermory
+(519)597,Kitchener
+(519)598,Chatham
+(519)599,Thornbury
+(519)600,Seaforth
+(519)601,London
+(519)602,Woodstock
+(519)603,Kitchener
+(519)604,Mount Forest
+(519)605,Rockwood
+(519)606,Clinton
+(519)607,Tilbury
+(519)608,Woodstock
+(519)609,ThorndaleIsp
+(519)612,Goderich
+(519)613,Leamington
+(519)614,London
+(519)615,London
+(519)616,Kitchener
+(519)617,London
+(519)618,Galt
+(519)619,London
+(519)620,Galt
+(519)621,Galt
+(519)622,Galt
+(519)623,Galt
+(519)624,Galt
+(519)625,Shakespeare
+(519)626,Wallaceburg
+(519)627,Wallaceburg
+(519)628,Wallaceburg
+(519)629,GaltAllstream10/31/2000
+(519)630,London
+(519)631,Saint Thomas
+(519)632,Ayr
+(519)633,Saint Thomas
+(519)634,Baden
+(519)635,Kitchener
+(519)636,London
+(519)637,Saint Thomas
+(519)638,Drayton
+(519)639,London
+(519)640,London
+(519)641,London
+(519)642,London
+(519)643,London
+(519)644,Belmont
+(519)645,London
+(519)646,London
+(519)647,Lynden
+(519)648,Breslau
+(519)649,London
+(519)650,Preston
+(519)651,Hespeler
+(519)652,Lambeth
+(519)653,Preston
+(519)654,Hespeler
+(519)655,Tavistock
+(519)656,Wellesley
+(519)657,London
+(519)658,Hespeler
+(519)659,London
+(519)660,London
+(519)661,London
+(519)662,New Hamburg
+(519)663,London
+(519)664,Saint Jacobs
+(519)665,Ayton
+(519)666,Ilderton
+(519)667,London
+(519)668,London
+(519)669,Elmira
+(519)670,London
+(519)671,London
+(519)672,London
+(519)673,London
+(519)674,Ridgetown
+(519)675,London
+(519)676,Blenheim
+(519)677,Port Lambton
+(519)678,Highgate
+(519)679,London
+(519)680,London
+(519)681,London
+(519)682,Tilbury
+(519)683,Dresden
+(519)684,Plattsville
+(519)685,London
+(519)686,London
+(519)687,Comber
+(519)688,Tillsonburg
+(519)689,Merlin
+(519)690,London
+(519)691,London
+(519)692,Thamesville
+(519)693,Wardsville
+(519)694,London
+(519)695,Bothwell
+(519)696,New Dundee
+(519)697,London
+(519)698,Linwood
+(519)699,Saint Clemnts
+(519)700,Hespeler
+(519)701,London
+(519)702,London
+(519)703,Stratford
+(519)704,SarniaIsp
+(519)706,Port Elgin
+(519)707,Kitchener
+(519)708,Port Elgin
+(519)709,London
+(519)710,Guelph
+(519)712,Kingsville
+(519)713,Amherstburg
+(519)714,Hespeler
+(519)715,Belle River
+(519)716,Hespeler
+(519)717,Brantford
+(519)718,Simcoe
+(519)719,London
+(519)720,Brantford
+(519)721,Kitchener
+(519)722,Kitchener
+(519)723,Pleasant Park
+(519)724,Pelee Island
+(519)725,Kitchener
+(519)726,Mcgregor
+(519)727,Emeryville
+(519)728,Belle River
+(519)729,Kitchener
+(519)730,Amherstburg
+(519)731,Guelph
+(519)732,Brantford
+(519)733,Kingsville
+(519)734,La Salle
+(519)735,Tecumseh
+(519)736,Amherstburg
+(519)737,Maidstone
+(519)738,Harrow
+(519)739,Tecumseh
+(519)740,Galt
+(519)741,Kitchener
+(519)742,Kitchener
+(519)743,Kitchener
+(519)744,Kitchener
+(519)745,Kitchener
+(519)746,Kitchener
+(519)747,Kitchener
+(519)748,Kitchener
+(519)749,Kitchener
+(519)750,Brantford
+(519)751,Brantford
+(519)752,Brantford
+(519)753,Brantford
+(519)754,Brantford
+(519)755,Brantford
+(519)756,Brantford
+(519)757,Brantford
+(519)758,Brantford
+(519)759,Brantford
+(519)760,Guelph
+(519)761,Brantford
+(519)762,Dutton
+(519)763,Guelph
+(519)764,Shedden
+(519)765,Aylmer
+(519)766,Guelph
+(519)767,Guelph
+(519)768,West Lorne
+(519)769,Fingal
+(519)770,Brantford
+(519)771,Brantford
+(519)772,Kitchener
+(519)773,Aylmer
+(519)774,Brantford
+(519)775,Sparta
+(519)776,Essex
+(519)777,London
+(519)778,Kitchener
+(519)779,Aylmer
+(519)780,Guelph
+(519)781,Kitchener
+(519)782,Port Stanley
+(519)783,Kitchener
+(519)784,Chatham
+(519)785,Rodney
+(519)786,Forest
+(519)787,Fergus
+(519)788,Woodstock
+(519)789,London
+(519)790,Windsor
+(519)791,Windsor
+(519)792,Windsor
+(519)793,Lions Head
+(519)794,Chatsworth
+(519)795,Dyer Bay
+(519)796,Windsor
+(519)797,Southampton
+(519)798,Stoney Point
+(519)799,Neustadt
+(519)800,WindsorIristel
+(519)801,Stratford
+(519)802,Brantford
+(519)803,Guelph
+(519)804,Kitchener
+(519)805,Brantford
+(519)806,Orangeville
+(519)807,Kitchener
+(519)808,London
+(519)809,Chatham
+(519)812,Lucknow
+(519)813,Corunna
+(519)814,Stratford
+(519)815,Listowel
+(519)816,Windsor
+(519)817,Windsor
+(519)818,Windsor
+(519)819,Windsor
+(519)820,Guelph
+(519)821,Guelph
+(519)822,Guelph
+(519)823,Guelph
+(519)824,Guelph
+(519)825,Wheatley
+(519)826,Guelph
+(519)827,Guelph
+(519)828,Arkona
+(519)829,Guelph
+(519)830,Guelph
+(519)831,Guelph
+(519)832,Port Elgin
+(519)833,Erin
+(519)834,Oil Springs
+(519)835,Guelph
+(519)836,Guelph
+(519)837,Guelph
+(519)838,Guelph
+(519)839,Cottam
+(519)840,Guelph
+(519)841,Hespeler
+(519)842,Tillsonburg
+(519)843,Fergus
+(519)844,Inwood
+(519)845,Wyoming
+(519)846,Elora
+(519)847,Alvinston
+(519)848,Arthur
+(519)849,Watford
+(519)850,London
+(519)851,London
+(519)852,London
+(519)853,Acton
+(519)854,London
+(519)855,Hillsburgh
+(519)856,Rockwood
+(519)857,London
+(519)858,London
+(519)859,London
+(519)860,London
+(519)861,Brantford
+(519)862,Corunna
+(519)863,Norwich
+(519)864,Brigden
+(519)865,Brantford
+(519)866,Straffordville
+(519)867,Courtright
+(519)868,London
+(519)869,Brights Grove
+(519)870,London
+(519)871,London
+(519)872,London
+(519)873,London
+(519)874,Port Burwell
+(519)875,Langton
+(519)876,Watford
+(519)877,Brownsville
+(519)878,London
+(519)879,Otterville
+(519)880,Kitchener
+(519)881,Walkerton
+(519)882,Petrolia
+(519)883,Kitchener
+(519)884,Kitchener
+(519)885,Kitchener
+(519)886,Kitchener
+(519)887,Brussels
+(519)888,Kitchener
+(519)889,Walkerton
+(519)890,Windsor
+(519)891,Goderich
+(519)892,Sombra
+(519)893,Kitchener
+(519)894,Kitchener
+(519)895,Kitchener
+(519)896,Kitchener
+(519)897,Kitchener
+(519)898,Alvinston
+(519)899,Aberarder
+(519)900,BrantfordIristel
+(519)901,Walkerton
+(519)902,London
+(519)903,Windsor
+(519)904,Kitchener
+(519)906,Saint Jacobs
+(519)907,London
+(519)908,Brights Grove
+(519)909,Simcoe
+(519)910,Elmira
+(519)912,Wingham
+(519)913,London
+(519)914,LondonIsp
+(519)915,Windsor
+(519)916,WindsorIsp
+(519)917,Chatham
+(519)918,Sarnia
+(519)919,Windsor
+(519)920,Preston
+(519)921,Durham
+(519)922,Feversham
+(519)923,Dundalk
+(519)924,Flesherton
+(519)925,Shelburne
+(519)926,Ingersoll
+(519)927,Caledon
+(519)928,Grand Valley
+(519)929,Acton
+(519)930,London
+(519)931,London
+(519)932,London
+(519)933,London
+(519)934,Tara
+(519)935,Hepworth
+(519)936,London
+(519)937,London
+(519)938,Orangeville
+(519)939,Orangeville
+(519)940,Orangeville
+(519)941,Orangeville
+(519)942,Orangeville
+(519)943,Orangeville
+(519)944,Windsor
+(519)945,Windsor
+(519)946,Windsor
+(519)947,Preston
+(519)948,Windsor
+(519)949,Stratford
+(519)951,London
+(519)952,Jarvis
+(519)953,London
+(519)954,Kitchener
+(519)955,Goderich
+(519)956,Tecumseh
+(519)957,Kitchener
+(519)960,Windsor
+(519)961,Essex
+(519)962,Windsor
+(519)963,London
+(519)964,London
+(519)965,Windsor
+(519)966,Windsor
+(519)967,Windsor
+(519)968,Windsor
+(519)969,Windsor
+(519)970,La Salle
+(519)971,Windsor
+(519)972,Windsor
+(519)973,Windsor
+(519)974,Windsor
+(519)975,Woodslee
+(519)976,
+(519)977,Windsor
+(519)978,La Salle
+(519)979,Tecumseh
+(519)980,Windsor
+(519)981,Windsor
+(519)982,Windsor
+(519)983,Tillsonburg
+(519)984,Windsor
+(519)985,Windsor
+(519)986,Markdale
+(519)987,Windsor
+(519)988,Windsor
+(519)989,Windsor
+(519)990,Windsor
+(519)991,Windsor
+(519)992,Windsor
+(519)993,Guelph
+(519)994,Guelph
+(519)995,Windsor
+(519)996,Windsor
+(519)997,Windsor
+(519)998,Kitchener
+(519)999,Windsor

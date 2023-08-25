@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>WorkForce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!link rel="stylesheet" href="css/style.css">
+	  <!link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<style>
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+.module:last-child {
+  margin-bottom: 0;
+}
+.module h2 {
+  margin-bottom: 48px;
+  font-family: "Roboto Slab", serif;
+}
+@media only screen and (min-width: 600px) {
+  .module h2 {
+    font-size: 42px;
+  }
+}
+.module p {
+  margin-bottom: 40px;
+  font-size: 1em;
+  font-weight: 300;
+}
+.module p:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 600px) {
+  .module p {
+    font-size: 20px;
+  }
+}
+.module.content {
+  padding: 40px 0;
+
+}
+.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 3em;
+  line-height: 700px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+.module.parallax-1 {
+  background-image: url(https://images.unsplash.com/flagged/photo-1574885173944-c23db8159846?auto=format&fit=crop&w=1500&q=80);
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+    font-size: 13px
+}
+
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+
+.dropdown-menu li a:hover {
+    background-color: #453554 !important;
+}
+
+body {background-color: #C9CCD5;}
+</style>
+
+  </head>
+	<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+  	<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="{{ url_for('main') }}">THE STRATAGEM GROUP - FILM & TV RESOURCE LIBRARY </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{ url_for('main') }}">HOME</a></li>
+        <li><a href="{{ url_for('Integrate') }}" >AT A GLANCE</a></li>
+        <li><a href="{{ url_for('page', page_num=1) }}">FUNDINGS</a></li>
+        <li><a href="{{ url_for('page3' ,  page_num=1) }}">UNIONS</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ url_for('page2',  page_num=1) }}">PDF RESOURCES</a></li>
+            <li><a href="{{ url_for('page5',  page_num=1
+            ) }}">PRODUCTION HOUSE RESOURCES</a></li>
+            <li><a href="{{ url_for('page6',  page_num=1) }}">INFRASTRUCTURE</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  	</div>
+	</nav>
+
+	<section class="module parallax parallax-1">
+  <div class="container">
+    <h1> <a data-flickr-embed="true" href="https://stratagemgroup.ca/" title="The Stratagem Group"><img src="https://live.staticflickr.com/65535/51695135612_80b7101784_o.png" width="636" height="233" alt="BG69-01"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> </h1>
+
+  </div>
+	</section>
+
+	<section class="ftco-section">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12">
+					<h1 style="text-align : center ; color: gray; align:center ;  "> Workforce2 </h1>
+					<div class="table-wrap">
+												<table  style="border:5px  double black; align:center ; border-style:solid;border-color:black;margin-right:auto;margin-left:auto;margin-top:10px;width: 90%;float:center; padding: 15px; " >
+
+<tr>
+
+<th style="border:1px solid black;" >Title</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Location</th>
+<th style="border:1px solid black;" >Telephone</th>
+
+</tr>
+{% for customers in data.items %}
+<tr>
+
+<td style="border:1px solid gray;" >{{ customers.Title}}</td>
+<td style="border:1px solid gray;" >{{ customers.Name}}</td>
+<td style="border:1px solid gray;" >{{ customers.Location}}</td>
+<td style="border:1px solid gray;" >{{ customers.Telephone}}</td>
+</tr>
+{% endfor %}
+</table>
+						<ul class="pagination" >
+
+							{% if data.has_prev %}
+
+							<li class="page-item"><a class="page-link" href="{{ url_for('page4',page_num=data.prev_num ) }}"> Prev </a> </li>
+
+							{% else %}
+
+							<li class="page-item disabled "><span class="page-link" > Prev </span> </li>
+
+							{% endif %}
+
+
+
+							{% for page in data.iter_pages(left_edge=3 ,right_edge=3) %}
+
+
+							{% if page %}
+
+							<li class="page-item"><a class="page-link" href="{{ url_for('page4',page_num=page) }}"> {{ page }}</a> </li>
+
+							{% else %}
+
+							<li class="page-item disabled "><a class="page-link" href="#"> </a> </li>
+
+							{% endif %}
+							{% endfor %}
+
+							{% if data.has_next %}
+
+							<li class="page-item"><a class="page-link" href="{{ url_for('page4',page_num=data.next_num ) }}"> Next </a> </li>
+
+							{% else %}
+
+							<li class="page-item disabled "><span class="page-link" > Next </span> </li>
+
+							{% endif %}
+
+						</ul>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	</body>
+</html>
+
